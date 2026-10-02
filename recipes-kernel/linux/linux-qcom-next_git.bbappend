@@ -1,5 +1,5 @@
 LINUX_VERSION:ventuno-q = "7.1"
-SRCREV:ventuno-q = "10a66404c1056d28d6f0e7bb3453ede44c79b58d"
+SRCREV:ventuno-q = "7c41f6626480abf3a67fd9436eeeb3c7c14a1702"
 KBUILD_CONFIG_EXTRA:remove:ventuno-q = "${S}/arch/arm64/configs/prune.config ${S}/arch/arm64/configs/qcom.config"
 SRCBRANCH:ventuno-q = "nobranch=1"
 SRCBRANCH:class-devupstream:ventuno-q = "branch=early/hwe/arduino"
